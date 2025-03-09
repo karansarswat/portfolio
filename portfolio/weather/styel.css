@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    background: linear-gradient(to right, #667eea, #764ba2);
+    color: white;
+    font-family: 'Arial', sans-serif;
+  }
+  .weather-card {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  }
+  .btn-primary {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  .btn-primary:hover {
+    background-color: #45a049;
+  }
+  .suggestion {
+    cursor: pointer;
+    padding: 5px 10px;
+    margin: 5px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.2s ease;
+  }
+  .suggestion:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  }

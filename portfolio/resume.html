@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Karan Sarswat</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Top Navigation Bar -->
+    <nav class="top-navbar">
+        <a href="index.html" class="logo">
+            <i class="fas fa-code"></i>
+            <span>Karan Sarswat</span>
+        </a>
+        <div class="nav-left">
+            <label class="theme-switch" for="theme-toggle">
+                <input type="checkbox" id="theme-toggle"/>
+                <div class="slider">
+                    <i class="fas fa-sun"></i>
+                    <i class="fas fa-moon"></i>
+                </div>
+            </label>
+        </div>
+        <ul class="top-nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="resume.html" class="active">Resume</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="nav-right">
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <section class="resume-section fade-in">
+            <div class="resume-header">
+                <h1>Resume</h1>
+                <div class="resume-actions">
+                    <a href="#" class="download-btn">
+                        <i class="fas fa-download"></i> Download PDF
+                    </a>
+                </div>
+            </div>
+
+            <div class="resume-grid">
+                <!-- Left Column -->
+                <div class="resume-left">
+                    <div class="resume-card">
+                        <h2><i class="fas fa-user-graduate"></i> Education</h2>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-date">2023 - 2025</div>
+                                <h3>Diploma in Web Design & Development</h3>
+                                <p class="timeline-place">Arena Animation Institute</p>
+                                <p>Diploma</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="resume-card">
+                        <h2><i class="fas fa-laptop-code"></i> Skills</h2>
+                        <div class="skills-grid">
+                            <div class="skill-category">
+                                <h3>Programming</h3>
+                                <div class="skill-tags">
+                                    <span>JavaScript</span>
+                                    <span>PHP</span>
+                                    <span>MySQL</span>
+                                </div>
+                            </div>
+                            <div class="skill-category">
+                                <h3>Web Development</h3>
+                                <div class="skill-tags">
+                                    <span>HTML5</span>
+                                    <span>CSS3</span>
+                                    <span>jQuery</span>
+                                </div>
+                            </div>
+                            <div class="skill-category">
+                                <h3>Tools & Technologies</h3>
+                                <div class="skill-tags">
+                                    <span>Git</span>
+                                    <span>Adobe Photoshop</span>
+                                    <span>Adobe Illustrator</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column -->
+                <div class="resume-right">
+                    <div class="resume-card">
+                        <h2><i class="fas fa-briefcase"></i> Experience</h2>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-date"></div>
+                                <h3>Web Developer</h3>
+                                <p class="timeline-place">Fresher</p>
+                                <ul class="experience-list">
+                                    <li>Developed and deployed a live website</li>
+                                    <li>Actively working on multiple projects</li>
+                                    <li>Proficient in modern web technologies and best practices</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="resume-card">
+                        <h2><i class="fas fa-trophy"></i> Projects</h2>
+                        <ul class="achievements-list">
+                            <li>
+                                <i class="fas fa-award"></i>
+                                <div>
+                                    <h3>Aquafin International School Website</h3>
+                                    <p>Developed and launched a professional website for Aquafin International School, currently live and serving students and parents.</p>
+                                    <ul>
+                                        <li>Implemented responsive design and dynamic content management</li>
+                                        <li>Created interactive features including admission forms and testimonials</li>
+                                        <li>Utilized HTML5, CSS3, JavaScript, PHP, and MySQL</li>
+                                    </ul>
+                                    <a href="https://aquafininternational.com/" target="_blank" class="project-link">View Live Site <i class="fas fa-external-link-alt"></i></a>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="fas fa-medal"></i>
+                                <div>
+                                    <h3>Netflix UI Clone</h3>
+                                    <ul>
+                                        <li>Developed a pixel-perfect clone of Netflix's user interface</li>
+                                        <li>Implemented responsive design and interactive features</li>
+                                    </ul>
+                                    <a href="C:\xampp\htdocs\portfolio\netflix ui\index.html" class="project-link">View Project <i class="fas fa-external-link-alt"></i></a>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="fas fa-medal"></i>
+                                <div>
+                                    <h3>Weather Application</h3>
+                                    <ul>
+                                        <li>Created a weather application with real-time data using API integration</li>
+                                        <li>Built an intuitive interface for checking weather conditions</li>
+                                    </ul>
+                                    <a href="C:\xampp\htdocs\portfolio\weather\weather.html" class="project-link">View Project <i class="fas fa-external-link-alt"></i></a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
